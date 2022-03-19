@@ -1,0 +1,17 @@
+.mainCard {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+.mainCard__photo {
+    border-radius: 15px;
+    padding-right: 20px;
+}
+
+.mainCard__title {
+    padding: 40px;
+}
+
+
