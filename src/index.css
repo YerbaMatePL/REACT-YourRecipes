@@ -6,7 +6,7 @@
   --first-color: #d0d5d881;
   --second-color: rgba(42, 44, 42, 0.507);
   --contrast-color: #0c8d13;
-  --gradient: linear-gradient(139deg, #2e7c33ef 0%, #2fb3df 100%);
+  --gradient: linear-gradient(139deg, #daaa52ef 0%, #fefffe 100%);
   --bgc-info: #f3f1f16e;
   --black-color: rgb(15, 14, 14);
   --white-color: rgb(237, 238, 237);
@@ -37,9 +37,9 @@ body {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
