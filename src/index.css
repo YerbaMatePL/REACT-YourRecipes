@@ -1,10 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/squad');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;600&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/19401d7f3cadf5d3b3a7124cb7028ff4?family=Cotoris');
 
 :root {
   --error-color: rgba(223, 95, 78, 0.966);
   --border-img: rgb(206, 200, 200);
   --first-color: #d0d5d881;
-  --second-color: rgba(42, 44, 42, 0.507);
+  --second-color: rgb(51, 73, 51);
   --contrast-color: #0c8d13;
   --gradient: linear-gradient(139deg, #daaa52ef 0%, #fefffe 100%);
   --bgc-info: #f3f1f16e;
@@ -19,7 +21,7 @@
 }
 
 html {
-  font-family: 'Squad', sans-serif;
+  font-family: 'Hind Vadodara', sans-serif;
   font-size: 15px;
 }
 
@@ -38,8 +40,19 @@ body {
 
 h1 {
   font-size: 3.5rem;
+  font-family: 'Cotoris',  'sans-serif';
 }
 
-h2 {
+p {
   font-size: 1.1rem;
+  opacity: 0.75;
+}
+
+h3 {
+  font-family: 'Cotoris',  'sans-serif';
+  color: var(--second-color);
+}
+
+li:hover {
+  cursor: url('./assets/Cursor/Glow\ 8.cur'), pointer;
 }
