@@ -8,7 +8,6 @@ import FoodPortions from '../FoodPortions/FoodPortions';
 
 function MainCard() {
 
-
 	return (
 		<div className='mainCard'>
 			<img className='mainCard__photo' src={photo} alt='pierogi'></img>

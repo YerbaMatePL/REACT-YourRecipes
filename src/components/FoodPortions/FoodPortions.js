@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 
 function FoodPortions() {
+	
 	return (
 		<Grid item xs={6} sm={3}>
 			<Paper className='mainCard__info__item' elevation={4}>
@@ -12,7 +13,6 @@ function FoodPortions() {
 					id='outlined-number'
 					type='number'
 					defaultValue='1'
-					autoFocus='true'
 					variant='outlined'
 					inputProps={{
 						max: 10,
