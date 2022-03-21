@@ -3,8 +3,12 @@ import photo from '../../assets/Food/Pierogi.jpg';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import FoodPortions from '../FoodPortions/FoodPortions';
+
 
 function MainCard() {
+
+
 	return (
 		<div className='mainCard'>
 			<img className='mainCard__photo' src={photo} alt='pierogi'></img>
@@ -20,32 +24,27 @@ function MainCard() {
 				</h2>
 
 				<Box className='mainCard__info'>
-					<Grid container  justifyContent="end">
+					<Grid container justifyContent='center'>
+					<FoodPortions></FoodPortions>
+
 						<Grid item xs={5} sm={3}>
-						<Paper className='mainCard__info__item' elevation={4}>
-							<h5>Ilość porcji</h5>
-							<p>3</p>
-						</Paper>
+							<Paper className='mainCard__info__item' elevation={4}>
+								<h5>Czas ogółem</h5>
+								<p>30 min</p>
+							</Paper>
 						</Grid>
 						<Grid item xs={6} sm={3}>
-						<Paper className='mainCard__info__item' elevation={4}>
-							<h5>Czas ogółem</h5>
-							<p>30 min</p>
-						</Paper>
+							<Paper className='mainCard__info__item' elevation={4}>
+								<h5>Przygotowanie</h5>
+								<p>10 min</p>
+							</Paper>
 						</Grid>
 						<Grid item xs={5} sm={3}>
-						<Paper className='mainCard__info__item' elevation={4}>
-							<h5>Przygotowanie</h5>
-							<p>10 min</p>
-						</Paper>
+							<Paper className='mainCard__info__item' elevation={4}>
+								<h5>Gotowanie</h5>
+								<p>20 min</p>
+							</Paper>
 						</Grid>
-						<Grid item xs={6} sm={3}>
-						<Paper className='mainCard__info__item' elevation={4}>
-							<h5>Gotowanie</h5>
-							<p>20 min</p>
-						</Paper>
-						</Grid>
-						
 					</Grid>
 				</Box>
 			</div>
