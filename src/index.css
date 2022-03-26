@@ -56,3 +56,9 @@ h3 {
 li:hover {
   cursor: url('./assets/Cursor/Glow\ 8.cur'), pointer;
 }
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  opacity: .5;
+}

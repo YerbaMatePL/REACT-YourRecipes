@@ -1,16 +1,20 @@
-import React from 'react';
 import Grid from '@mui/material/Grid';
 import './Ingredients.css';
 
-function Ingredients(params) {
+function Ingredients() {
+
+	const crossLine = event => {
+        const element = event.target;
+        element.classList.toggle('completed');
+    };
+
 	return (
 		<Grid
 			container
-			className='recipeContainer__box recipeContainer__ingredients'
-		>
+			className='recipeContainer__box recipeContainer__ingredients'>
 			<Grid item>
 				<h3>Składniki</h3>
-				<ul>
+				<ul onClick={crossLine}>
                     <li>2 medium leeks</li>
                     <li>2 medium leeks</li>
                     <li>2 medium leeks</li>
@@ -18,8 +22,6 @@ function Ingredients(params) {
                     <li>2 medium leeks</li>
                     <li>2 medium leeks</li>
                 </ul>
-					
-				
 			</Grid>
 		</Grid>
 	);
