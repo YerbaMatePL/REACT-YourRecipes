@@ -21,7 +21,7 @@ const labels = {
   };
 
 
-function Preparation() {
+function Preparation(props) {
 	const [value, setValue] = React.useState(5);
   const [hover, setHover] = React.useState(-1);
 
@@ -32,7 +32,7 @@ function Preparation() {
 		>
 			<Grid item>
 				<h3>Przygotowanie</h3>
-				<ol>
+				<ol onClick={props.crossLine}>
 					<li>
 						Cut the leeks in half lengthwise, keeping the end intact, and wash
 						in between the layers. Very thinly slice the white and light green
