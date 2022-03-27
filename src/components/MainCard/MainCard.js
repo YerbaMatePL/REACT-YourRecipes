@@ -14,12 +14,7 @@ function MainCard(props) {
 			<div className='mainCard__title'>
 				<h1>Pierogi Aushak</h1>
 				<p>
-					Aushak are an Afghan version of dumplings, usually filled with leeks,
-					onions, or chives. It's served with creamy garlic yogurt and a hearty
-					tomato-based meat or lentil sauce. As aushak are time-consuming to
-					make, this dish is usually reserved for special occasions. Filling and
-					sealing the aushak is a wonderful opportunity to sit together and
-					prepare this lovely dish in good company.
+				Aushak - to afgańska wersja pierogów, zwykle wypełnionych porami, cebulą lub szczypiorkiem. Podaje się je z kremowym jogurtem czosnkowym i wyrazistym sosem mięsnym lub soczewicowym na bazie pomidorów. Ponieważ aushak są czasochłonne w przygotowaniu, danie to jest zwykle zarezerwowane na specjalne okazje. 
 				</p>
 
 				<Box className='mainCard__info'>

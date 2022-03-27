@@ -34,29 +34,21 @@ function Preparation(props) {
 				<h3>Przygotowanie</h3>
 				<ol onClick={props.crossLine}>
 					<li>
-						Cut the leeks in half lengthwise, keeping the end intact, and wash
-						in between the layers. Very thinly slice the white and light green
-						portions of the leeks. The thinner you can slice this the better.
-						Our 2 medium leeks gave approximately 5 cups of chopped leeks.
+					Warzywa umyć i osączyć z wody. 
 					</li>
 					<li>
-						In a large strainer over a bowl, combine the leeks, oil, and salt.
-						Mix together using your hands, massaging to ensure the leeks are
-						well coated with the oil and salt. Allow the mixture to sit for at
-						least 5 minutes to soften.
+					Przygotować ciasto: mąkę przesypać na stolnicę i wymieszać ze szczyptą soli. Do wymieszanej mąki wbić jajko, wlać letnią wodę i wyrobić elastyczne ciasto. Wyrobione rozwałkować na grubość 0,5 mm i wyciąć kubkiem krążki.
 					</li>
 					<li>
-						Cut the leeks in half lengthwise, keeping the end intact, and wash
-						in between the layers. Very thinly slice the white and light green
-						portions of the leeks. The thinner you can slice this the better.
-						Our 2 medium leeks gave approximately 5 cups of chopped leeks.
+					Przygotować wypełnienie: pory oraz miętę pokroić w cienkie plastry. Cebulę obrać ze skóry i zeszklić na 3 łyżkach rozgrzanego oleju na na patelni. Do zeszklonej cebuli dodać pokrojone pory oraz miętę, po czym składniki doprawić do smaku mielonym imbirem, pieprzem oraz solą, wymieszać i smażyć przez 1,5 minuty na średnim ogniu. 
 					</li>
 					<li>
-						Cut the leeks in half lengthwise, keeping the end intact, and wash
-						in between the layers. Very thinly slice the white and light green
-						portions of the leeks. The thinner you can slice this the better.
-						Our 2 medium leeks gave approximately 5 cups of chopped leeks.
+					Potem do smażonych składników dodać pokruszony drobno ser biały, ponownie wymieszać i smażyć przez kolejne 1,5 minuty. Usmażone ściągnąć z ognia, lekko przestudzić i łyżeczką nałożyć na wycięte krążki, po czym całość zlepić ręcznie. 
 					</li>
+					<li>Zlepione wrzucić do 1 l gotującej się wody. Gotować przez trzy minuty, potem odcedzić łyżką cedzakowa i wyłożyć na talerz.</li>
+					<li>Makaron rurki zalać 1 l lekko osolonej wody ugotować do miękkości i odcedzić. </li>
+					<li>Rozgrzać 3 łyżki oleju na patelni i zeszklić na nim obrany i pokrojony drobno czosnek. Do zeszklonego czosnku dodać mielone mięso wieprzowe i smażyć przez 1 minutę na średnim ogniu.Potem dodać do tego ugotowany wcześniej makaron i przecier pomidorowy. Wszystko doprawić do smaku pieprzem oraz solą, wymieszać i dusić pod przykryciem przez 4 minuty. </li>
+					<li> Gotowe ściągnąć z ognia i wyłożyć na składniki na talerzu. Całość zalać jogurtem naturalnym i posypać mielonym tymiankiem.</li>
 				</ol>
 			</Grid>
 			<Grid item>
