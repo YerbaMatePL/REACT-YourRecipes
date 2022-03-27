@@ -4,16 +4,15 @@ import Box from '@mui/material/Box';
 import Preparation from './Preparation/Preparation';
 import Ingredients from './Ingredients/Ingredients';
 
-const crossLine = event => {
+const crossLine = (event) => {
 	const element = event.target;
 	element.classList.toggle('completed');
 };
-  
 
-function Recipe() {
+function Recipe(props) {
 	return (
 		<Box className='recipeContainer'>
-			<Ingredients crossLine={crossLine} />
+			<Ingredients crossLine={crossLine} value={props.value} />
 			<Preparation crossLine={crossLine} />
 		</Box>
 	);

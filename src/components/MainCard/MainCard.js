@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import FoodPortions from '../FoodPortions/FoodPortions';
 
 
-function MainCard() {
+function MainCard(props) {
 
 	return (
 		<div className='mainCard'>
@@ -24,8 +24,7 @@ function MainCard() {
 
 				<Box className='mainCard__info'>
 					<Grid container justifyContent='center'>
-					<FoodPortions></FoodPortions>
-
+					<FoodPortions update={props.update}></FoodPortions>
 						<Grid item xs={5} sm={3}>
 							<Paper className='mainCard__info__item' elevation={4}>
 								<h5>Czas ogółem</h5>

@@ -10,7 +10,7 @@ function Ingredients(props) {
 			<Grid item>
 				<h3>Składniki</h3>
 				<ul onClick={props.crossLine}>
-                    <li>2 medium leeks</li>
+                    <li>{props.value} 2 medium leeks</li>
                     <li>2 medium leeks</li>
                     <li>2 medium leeks</li>
                     <li>2 medium leeks</li>
