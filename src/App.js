@@ -5,6 +5,8 @@ import Recipe from './components/Recipe/Recipe';
 import Switch from '@mui/material/Switch';
 
 
+
+
 function App() {
 	// Theme
 	const [theme, setTheme] = useState('light');
@@ -17,10 +19,11 @@ function App() {
 	const updateAmountOfPortions = (dataFromChild) => {
 		setAmountOfPortions(dataFromChild);
 	};
+
+	
 	return (
 		<div className={`app wrapper app__bgc--${theme}`}>
-			<Switch onChange={checkTheme} defaultChecked color="default"  
-			inputProps={{ 'aria-label': 'checkbox with default color' }}/>
+			<Switch onChange={checkTheme} color="primary"/>
 			<MainCard update={updateAmountOfPortions}/>
 			<Recipe value={amountOfPortions}/>
 		</div>
