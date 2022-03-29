@@ -24,6 +24,13 @@
 	color: rgb(190, 222, 226);
 }
 
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase span {
+	color: black;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked span {
+	color: white;
+}
+
 
 
 
