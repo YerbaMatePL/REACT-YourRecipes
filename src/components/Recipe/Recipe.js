@@ -3,7 +3,7 @@ import './Recipe.css';
 import Box from '@mui/material/Box';
 import Preparation from './Preparation/Preparation';
 import Ingredients from './Ingredients/Ingredients';
-import Rating from './Rating/Rating';
+import UserRating from './UserRating/UserRating';
 
 const crossLine = (event) => {
 	const element = event.target;
@@ -18,7 +18,7 @@ function Recipe(props) {
 				<Preparation crossLine={crossLine} />
 			</Box>
 			<Box>
-				<Rating />
+				<UserRating />
 			</Box>
 		</div>
 	);
