@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;600&display=swap');
-@import url('https://db.onlinewebfonts.com/c/19401d7f3cadf5d3b3a7124cb7028ff4?family=Cotoris');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 :root {
-  --error-color: rgba(223, 95, 78, 0.966);
-  --border-img: rgb(206, 200, 200);
-  --first-color: #d0d5d881;
-  --second-color: rgba(186, 232, 250, 0.541);
-  --contrast-color: #0c8d13;
   --gradient: linear-gradient(159deg, #0f4d4eef 0%, #2a5586 100%);
-  --bgc-info: #f3f1f16e;
-  --black-color: rgb(15, 14, 14);
-  --white-color: rgb(237, 238, 237);
 }
 
 * {
@@ -20,7 +12,7 @@
 }
 
 html {
-  font-family: 'Cotoris',  'sans-serif';
+  font-family: 'Kalam', cursive;
   font-size: 15px;
 }
 
@@ -57,9 +49,12 @@ p {
   font-family: 'Hind Vadodara', sans-serif;
 }
 
+li {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
 li:hover {
   cursor: url('./assets/Cursor/Glow\ 8.cur'), pointer;
-  font-family: 'Hind Vadodara', sans-serif;
 }
 
 .completed {
