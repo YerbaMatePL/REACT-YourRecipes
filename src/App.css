@@ -1,11 +1,36 @@
 .app {
-	width: 1400px;
-    height: 1000px;
+	max-width: 1400px;
+	min-width: 340px;
     display: flex;
+	flex-direction: column;
     justify-content: center;
 	padding: 20px 30px;
 	font-size: 4rem;
-	background-color: rgba(255, 255, 255, 0.308);
 }
+
+.app__bgc--light{
+	background-color: rgba(248, 245, 245, 0.603);
+	color: black;
+}
+.app__bgc--dark {
+	background-color: rgba(0, 0, 0, 0.589);
+	color: rgba(255, 255, 255, 0.877);
+}
+
+.app__bgc--light h3 {
+	color: rgb(18, 62, 68);
+}
+.app__bgc--dark h3 {
+	color: rgb(190, 222, 226);
+}
+
+@media (min-width: 992px) {
+	.switchBtn {
+		left: 96%;
+	}	
+ }
+
+
+
 
 

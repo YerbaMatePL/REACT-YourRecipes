@@ -1,0 +1,42 @@
+.recipeMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipeContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recipeContainer li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.recipeContainer ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.recipeContainer ul {
+    list-style: none;
+}
+
+.recipeContainer h3 {
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+.recipeContainer__box {
+    padding: 20px;
+}
+
+
+@media (min-width: 992px) {
+   .recipeContainer {
+       flex-direction: row;
+   }
+}

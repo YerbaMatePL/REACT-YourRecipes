@@ -1,12 +1,13 @@
-@import url('http://fonts.cdnfonts.com/css/squad');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;600&display=swap');
+@import url('https://db.onlinewebfonts.com/c/19401d7f3cadf5d3b3a7124cb7028ff4?family=Cotoris');
 
 :root {
   --error-color: rgba(223, 95, 78, 0.966);
   --border-img: rgb(206, 200, 200);
   --first-color: #d0d5d881;
-  --second-color: rgba(42, 44, 42, 0.507);
+  --second-color: rgba(186, 232, 250, 0.541);
   --contrast-color: #0c8d13;
-  --gradient: linear-gradient(139deg, #2e7c33ef 0%, #2fb3df 100%);
+  --gradient: linear-gradient(159deg, #0f4d4eef 0%, #2a5586 100%);
   --bgc-info: #f3f1f16e;
   --black-color: rgb(15, 14, 14);
   --white-color: rgb(237, 238, 237);
@@ -19,8 +20,8 @@
 }
 
 html {
-  font-family: 'Squad', sans-serif;
-  font-size: 10px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 15px;
 }
 
 body {
@@ -36,10 +37,31 @@ body {
   max-width: 1400px;
 }
 
-h1 {
-  font-size: 8rem;
+h1, h3, h4 {
+  font-family: 'Cotoris',  'sans-serif';
 }
 
-h2 {
-  font-size: 2.5rem;
+h1 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 2.1rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1.1rem;
+  opacity: 0.75;
+}
+
+li:hover {
+  cursor: url('./assets/Cursor/Glow\ 8.cur'), pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  opacity: .5;
 }

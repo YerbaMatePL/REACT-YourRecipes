@@ -1,0 +1,19 @@
+.recipeRating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.MuiRating-icon.MuiRating-iconEmpty.css-1c99szj-MuiRating-icon{
+    color: rgb(99, 147, 175);
+    
+}
+.MuiRating-icon.MuiRating-iconFilled.css-7qmtgc-MuiRating-icon {
+    color: rgb(25, 141, 10);
+}
+
+.MuiRating-iconHover {
+    color: rgb(61, 124, 3);
+}
