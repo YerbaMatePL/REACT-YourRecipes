@@ -36,8 +36,8 @@ Użytkownik może:
 👉 Dodatkowo aplikacja posiada dwa motywy - jasny i ciemny. Wybór określonego motywu jest zapisywany w **Local Storage**, aby przechowywać preferencje danego użytkownika.
 <br><br><br>
 <p align="center" float="left">
-<img src="https://user-images.githubusercontent.com/90143181/160812781-f551ab70-a3b2-4a2c-981a-1091589cd177.png" width="500px">
-<img src="https://user-images.githubusercontent.com/90143181/160812795-5413f630-1054-47c3-8701-24c9275dd01b.png" width="500px"></p>
+<img src="https://user-images.githubusercontent.com/90143181/160812781-f551ab70-a3b2-4a2c-981a-1091589cd177.png" width="450px">
+<img src="https://user-images.githubusercontent.com/90143181/160812795-5413f630-1054-47c3-8701-24c9275dd01b.png" width="450px"></p>
 <br><br><br>
 
 👉 Aplikacja YourRecipes jest w pełni responsywna.
