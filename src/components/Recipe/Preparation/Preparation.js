@@ -2,14 +2,11 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import './Preparation.css';
 
-
-
 function Preparation(props) {
 	return (
 		<Grid
 			container
-			className=' recipeContainer__box recipeContainer__preparation'
-		>
+			className=' recipeContainer__box recipeContainer__preparation'>
 			<Grid item>
 				<h3>Przygotowanie</h3>
 				<ol onClick={props.crossLine}>

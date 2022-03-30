@@ -5,9 +5,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import FoodPortions from '../FoodPortions/FoodPortions';
 
-
 function MainCard(props) {
-
 	return (
 		<div className='mainCard'>
 			<img className='mainCard__photo' src={photo} alt='pierogi'></img>

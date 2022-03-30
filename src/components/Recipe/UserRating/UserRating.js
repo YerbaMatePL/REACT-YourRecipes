@@ -8,8 +8,6 @@ import SentimentSatisfiedIcon from '@mui/icons-material/SentimentSatisfied';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAltOutlined';
 import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
 
-
-
 const customIcons = {
   1: {
     icon: <SentimentVeryDissatisfiedIcon />,
@@ -33,7 +31,6 @@ const customIcons = {
   },
 };
 
-
 function IconContainer(props) {
   const { value, ...other } = props;
   return <span {...other}>{customIcons[value].icon}</span>;
@@ -43,8 +40,8 @@ IconContainer.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-
 function UserRating() {
+  // User rating in local storage
   const [ratingValue, setRatingValue] = useState(localStorage.getItem("ratingValue" || 0));
 
   useEffect(() => {

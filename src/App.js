@@ -4,7 +4,6 @@ import MainCard from './components/MainCard/MainCard';
 import Recipe from './components/Recipe/Recipe';
 import Switch from '@mui/material/Switch';
 
-
 function App() {
 	// Theme and local storage
 	const [theme, setTheme] = useState(localStorage.getItem("theme") || 'light');
@@ -24,7 +23,7 @@ function App() {
 	};
 	return (
 		<div className={`app wrapper app__bgc--${theme}`}>
-			<Switch onChange={checkTheme} color='primary'/>
+			<Switch className='switchBtn' onChange={checkTheme} color='primary'/>
 			<MainCard update={updateAmountOfPortions} />
 			<Recipe value={amountOfPortions} />
 		</div>

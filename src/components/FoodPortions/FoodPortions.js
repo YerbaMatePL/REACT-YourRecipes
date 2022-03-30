@@ -1,4 +1,4 @@
-import './FoodPortions.css';
+import React from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
