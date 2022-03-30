@@ -42,7 +42,7 @@ IconContainer.propTypes = {
 
 function UserRating() {
   // User rating in local storage
-  const [ratingValue, setRatingValue] = useState(localStorage.getItem("ratingValue" || 0));
+  const [ratingValue, setRatingValue] = useState(localStorage.getItem("ratingValue" || 3));
 
   useEffect(() => {
 		localStorage.setItem('ratingValue', ratingValue);
