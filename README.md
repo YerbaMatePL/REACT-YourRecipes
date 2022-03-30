@@ -58,7 +58,7 @@ Użytkownik może:
 <img src="https://user-images.githubusercontent.com/90143181/155710948-14bf50e8-30b5-47f3-8151-9fc80556c0ed.png" width="40" height="40">CSS3&nbsp<img src="https://user-images.githubusercontent.com/90143181/155709360-40a94a88-a7ea-4d82-ba0c-f51aec3b3ff4.png" width="40" height="40"> HTML5<br><img src="https://user-images.githubusercontent.com/90143181/155711643-97bc4f8c-0460-4dd7-b4da-8cd79a08a2e3.png" width="40" height="40">&nbsp&nbspNODE.JS&nbsp&nbsp&nbsp&nbsp<img src="https://user-images.githubusercontent.com/90143181/155712064-fd173cb7-8581-4e16-bf99-194e4ac2be55.png" width="40" height="20">&nbsp&nbspGIT</p>
 
 ## Czego nauczył mnie ten projekt
-
+- Zapisywania danych w Local Storage,
 - Korzystanie z biblioteki Material UI,
 - Tworzenia i wydzielania komponetów,
 - Zarządzania stanem,
