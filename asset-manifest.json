@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/REACT-YourRecipes/static/css/main.e25753c8.css",
+    "main.css": "/REACT-YourRecipes/static/css/main.7e0067bf.css",
     "main.js": "/REACT-YourRecipes/static/js/main.a4ecb21a.js",
     "static/media/Pierogi.jpg": "/REACT-YourRecipes/static/media/Pierogi.b69023de809803615695.jpg",
     "static/media/Glow 8.cur": "/REACT-YourRecipes/static/media/Glow 8.91e3778bca6fde24a0ef.cur",
     "index.html": "/REACT-YourRecipes/index.html",
-    "main.e25753c8.css.map": "/REACT-YourRecipes/static/css/main.e25753c8.css.map",
+    "main.7e0067bf.css.map": "/REACT-YourRecipes/static/css/main.7e0067bf.css.map",
     "main.a4ecb21a.js.map": "/REACT-YourRecipes/static/js/main.a4ecb21a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e25753c8.css",
+    "static/css/main.7e0067bf.css",
     "static/js/main.a4ecb21a.js"
   ]
 }
