@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './UserRating.css';
 import PropTypes from 'prop-types';
 import Rating from '@mui/material/Rating';
@@ -45,11 +45,21 @@ IconContainer.propTypes = {
 
 
 function UserRating() {
+  const [ratingValue, setRatingValue] = useState(localStorage.getItem("ratingValue" || 0));
 
+  useEffect(() => {
+		localStorage.setItem('ratingValue', ratingValue);
+	  }, [ratingValue]);
+  
 	return (
 		<div className='recipeRating'>
 			<h4>A Tobie jak smakowało?</h4>
       <Rating
+      name="simple-controlled"
+      value={ratingValue}
+      onChange={(event, newValue) => {
+        setRatingValue(newValue);
+      }}
       IconContainerComponent={IconContainer}
     />
 		</div>

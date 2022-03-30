@@ -15,13 +15,13 @@ function App() {
 	
 	const checkTheme = () =>
 		theme === 'light' ? setTheme('dark') : setTheme('light');
+
 	// Amount of Portions
 	const [amountOfPortions, setAmountOfPortions] = useState(1);
 
 	const updateAmountOfPortions = (dataFromChild) => {
 		setAmountOfPortions(dataFromChild);
 	};
-	
 	return (
 		<div className={`app wrapper app__bgc--${theme}`}>
 			<Switch onChange={checkTheme} color='primary'/>
