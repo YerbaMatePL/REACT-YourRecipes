@@ -6,14 +6,16 @@
     width: 100%;
 }
 
-.MuiRating-icon.MuiRating-iconEmpty.css-1c99szj-MuiRating-icon{
+.MuiRating-icon.MuiRating-iconEmpty {
     color: rgb(99, 147, 175);
     
 }
-.MuiRating-icon.MuiRating-iconFilled.css-7qmtgc-MuiRating-icon {
+.MuiRating-icon.MuiRating-iconFilled {
     color: rgb(25, 141, 10);
 }
 
 .MuiRating-iconHover {
     color: rgb(61, 124, 3);
 }
+
+
