@@ -11,7 +11,7 @@ Prosta aplikacja wykonana w React.js, która umożliwia użytkownikowi pracę z 
 
 
 ## Instalacja 
-Instalacja aplikacji opiera się na menadżerze pakietów [npm](https://www.npmjs.com/).
+Instalacja aplikacji opiera się na menedżerze pakietów [npm](https://www.npmjs.com/).
 ```bash
 git clone https://github.com/YerbaMatePL/REACT-YourRecipes.git
 cd kalkulator-rusztow
