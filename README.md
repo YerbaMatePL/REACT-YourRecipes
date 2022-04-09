@@ -1,5 +1,5 @@
 # REACT-YourRecipes
-Prosta aplikacja wykonana w React.js, która umożliwa użytkownikowi pracę z interaktywnym przepisem kulinarnym. 
+Prosta aplikacja wykonana w React.js, która umożliwia użytkownikowi pracę z interaktywnym przepisem kulinarnym. 
 
 👉 Sprawdź podgląd na żywo: https://yerbamatepl.github.io/REACT-YourRecipes/
 
